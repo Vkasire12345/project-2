@@ -1,0 +1,2 @@
+add_library(data_structure_lib data_structure.cpp)
+target_include_directories(data_structure_lib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
